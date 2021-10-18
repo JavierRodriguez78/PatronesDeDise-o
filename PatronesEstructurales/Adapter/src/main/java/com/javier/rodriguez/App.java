@@ -19,7 +19,7 @@ public class App
 
         Movable Mercedes = new Mercedes();
         MovableAdapter MercedesAdapter = new MovableAdapterImpl(Mercedes);
-        System.out.println("Velocidad Merecedes es -> "+ SeatAdapter.getSpeed()+"km/h");
+        System.out.println("Velocidad Merecedes es -> "+ MercedesAdapter.getSpeed()+"km/h");
 
     }
 }
